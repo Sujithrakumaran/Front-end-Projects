@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <title>Teddy's Cafe</title>
+         <link rel ="icon" href ="teddy logo.jpg">
+    <style>
+        division{
+            
+             display: inline-block;
+            height:100%;
+            width:100%;
+           }
+        #bar{ 
+            position: relative; top:-700px;left:10px;
+            display:inline-block;
+            border:solid;
+            height:35px;
+            width:19%;
+            font-size: 22px;
+            font-weight: bold;
+            background-color: #6d2f2f;
+            color: peachpuff;
+            text-align: center; 
+            
+        }
+       
+        
+        div{  
+            position:relative;top:-650px; left:440px;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        #dish{
+            border-style:groove;
+            height: 100px;
+            width: 500px;
+            border-radius: 20px;
+          }
+        #bar:hover{
+            background-color: hsla(22, 44%, 55%, 0.843); 
+            color: #2c2b2b;
+            border-color: peachpuff;
+            font-size: 27px;
+        }
+        
+        input[type="button"]{ 
+            position: relative;top:-1165px;left:690px;
+            height:70px;
+            width:210px;
+            font-size: 35px;
+            background-color: peachpuff;
+           color: rgb(61, 7, 7);
+           font-weight:bolder;
+           border-radius: 10px;
+           border:  peachpuff}
+        
+        #button:hover{
+            background-color: #b4b4e2;
+        }
+         
+        
+    </style>
+
+    </head>
+    <body>
+        <division>
+           <img src="cookie wall.jpg" height="700px" width="100%">
+           <button id="bar" type="button" onclick='document.location="teddycafe.html"'>HOME</button>
+           <button id="bar" type="button" onclick='document.location="orders.html"'>ORDERS</button>
+           <button id="bar" type="button" onclick='document.location="forms.html"'>FORMS</button>
+           <button id="bar" type="button" onclick='document.location="contact.html"'>CONTACT</button>
+           <button id="bar" type="button" onclick='document.location="about.html"'>ABOUT</button>
+
+           <div>
+              <div1 id="dish">
+                <img src ="tedj (2).png" height="100px" width="150px" >
+              </div1><br><br>
+              <div2 id="dish">
+                <img src="tedj (1).png" height="100px" width="150px">
+              </div2><br><br>
+              <div3 id="dish">
+                <img src="tedj (3).png"height="100px" width="150px">
+              </div3><br><br>
+              <div4 id="dish">
+                <img src="tedj (4).png"height="100px" width="150px">
+              </div4>
+           </div>
+       </division>
+            <buttons>
+                <input id ="button" type="button" onclick='document.location="pastry.html"' value="Pastry"><br><br><br><br><br>
+                <input id ="button"  type="button" onclick='document.location="bev.html"' value="Beverages"><br><br><br><br><br>
+                <input  id ="button" type="button" onclick='document.location="breads.html"' value="Breads"><br><br><br><br><br>
+                <input  id ="button" type="button" onclick='document.location="sav.html"' value="Savories">
+            </buttons>
+    </body>
+</html>

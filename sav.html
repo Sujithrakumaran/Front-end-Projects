@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <title>Teddy's Cafe</title>
+         <link rel ="icon" href ="teddy logo.jpg">
+    <style>
+        division{
+            
+             display: inline-block;
+            height:100%;
+            width:100%;
+           }
+        #bar{ 
+            position: relative; top:-2000px;left:10px;
+            display:inline-block;
+            border:solid;
+            height:35px;
+            width:19%;
+            font-size: 22px;
+            font-weight: bold;
+            background-color: #6d2f2f;
+            color: peachpuff;
+            text-align: center; 
+            
+        }
+        h1{ 
+           position: relative; top:-2000px; left:200px;
+           color: hsl(0, 40%, 33%);
+           font-stretch:extra-expanded;
+           font-family: Verdana;
+           letter-spacing: 2px;
+           font-size: 40px;
+        
+        }
+    
+        #pastry{
+            position: relative;top:-2075px; left:110px;
+            height: 50px;
+            width:80px;
+        }
+        #grid{  
+            position:relative;top:-2050px; left:100px;
+            display: grid;
+            justify-content: center;
+            grid-template-columns:700px 700px;
+            grid-template-rows: 500px 500px 500px;
+                   
+            
+          }
+        #i{ 
+            display: grid;
+            justify-content: center; 
+            border: solid 5px #6d2f2f;
+            height: 350px;
+            width: 400px;
+
+          }
+        #bar:hover{
+            background-color: hsla(22, 44%, 55%, 0.843); 
+            color: #2c2b2b;
+            border-color: peachpuff;
+            font-size: 27px;
+        }
+        div h2{ position:relative;left:80px;}
+        div1 h2{ position:relative;left:120px;}
+        div2 h2{ position:relative;left:110px;}
+        div3 h2{ position:relative;left:100px;}
+        div5 h2{ position:relative;left:100px;}
+        div h3{position:relative;left:50px;top:-40px;}
+
+        input[type="button"]{ position: relative;top:-50px;left:90px;
+              height:57px;
+              width:100px;
+              background-color: #6d2f2f; 
+              color: white;
+              font-weight:bolder;
+              border: 10px solid #6d2f2f;}
+        
+        
+        
+    </style>
+
+    </head>
+    <body>
+        <division>
+           <img src="cookie wall.jpg" height="100%" width="100%">
+           <button id="bar" type="button" onclick='document.location="teddycafe.html"'>HOME</button>
+           <button id="bar" type="button" onclick='document.location="orders.html"'>ORDERS</button>
+           <button id="bar" type="button" onclick='document.location="forms.html"'>FORMS</button>
+           <button id="bar" type="button" onclick='document.location="contact.html"'>CONTACT</button>
+           <button id="bar" type="button" onclick='document.location="about.html"'>ABOUT</button>
+           <h1> Savories</h1>
+           <img id="pastry"src="d fries.jpg"><br><br><br><br>
+           <div id="grid">
+              <div1 id="i">
+                <img src ="fries.jpg"  height="200px" width="300px" >
+                <h2>Fries</h2><h3>Cost : Rs 70 /per plate</h3>
+                <input type="button" value="Order Now" onclick='document.location="https://www.swiggy.com"'>
+                
+              </div1>
+              <div2 id="i">
+                <img src="smily.jpg" height="200px" width="300px">
+                <h2>Smilies</h2><h3>Cost : Rs 80 /per plate</h3>
+                <input type="button" value="Order Now" onclick='document.location="https://www.swiggy.com"'>
+              </div2>
+              <div3 id="i">
+                <img src="nuggets.jpg"height="200px" width="300px">
+                <h2>Nuggets</h2><h3>Cost : Rs 80 /per plate</h3>
+                <input type="button" value="Order Now" onclick='document.location="https://www.swiggy.com"'>
+              </div3>
+              <div4 id="i">
+                <img src="balls.jpg"height="200px" width="300px">
+                <h2>Cheese balls</h2><h3>Cost : Rs 80 /per plate</h3>
+                <input type="button" value="Order Now" onclick='document.location="https://www.swiggy.com"'>
+              </div4>
+              <div5 id="i">
+                <img src="swril.jpg"height="200px" width="300px">
+                <h2>Tornado</h2><h3>Cost : Rs 80 /per piece</h3>
+                <input type="button" value="Order Now" onclick='document.location="https://www.swiggy.com"'>
+              </div5>
+              <div6 id="i">
+                <img src="chicken.jpg"height="200px" width="300px">
+                <h2>Fried Chicken</h2><h3>Cost : Rs 250 /per plate</h3>
+                <input type="button" value="Order Now" onclick='document.location="https://www.swiggy.com"'>
+              </div6>
+           </div>
+          
+       </division>
+    </body>
+</html>
